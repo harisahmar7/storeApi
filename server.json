@@ -1,0 +1,8 @@
+{
+	"apps":[{
+		"name": "storeApi",
+		"script":"app.js",
+		"watch": true
+
+	}]
+}
