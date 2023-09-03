@@ -7,6 +7,7 @@ const storeController = require('./controller/storecontroller');
 
 app.use(morgran('dev'));
 app.use(express.json());
+app.use(express.static('public'));
 
 app.get('/products', storeController.getProduct);
 app.get('/product/static',storeController.getAllProductStatic);
